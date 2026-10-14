@@ -1,0 +1,8 @@
+// 1. Variavel nao declarada (execute isoladamente)
+// x = 10;
+// 2. Redeclaracao no mesmo escopo (execute isoladamente)
+// int x; int x;
+// 3. Tipo incompativel (execute isoladamente)
+// float y; y = 3;
+// 4. Condicao sem operador relacional (execute isoladamente)
+int y; if (y) { print(y); }
